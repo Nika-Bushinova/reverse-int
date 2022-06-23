@@ -1,4 +1,3 @@
 module.exports = function reverse (n) {
-  let c = n.toString().split('').reverse().join('');
-    let d = parseFloat(c)
-         return d}
+  let numberReverse= Math.abs(n).toString().split('').reverse().join('')
+         return +numberReverse}
